@@ -17,23 +17,28 @@
 }
 
 .titulo .menu-derecha {
-    width: 10vw;
+    width     : 10vw;
     text-align: center;
 }
 
-article{
-    display: flex;
-    flex-direction: row;
-    width: 100vw;
-   align-items: center;
-   justify-content: center;
+article {
+    display        : flex;
+    flex-direction : row;
+    width          : 100vw;
+    align-items    : center;
+    justify-content: center;
 }
 
-.tablaIngreso{
+.tablaIngreso {
     border: black solid 1px;
+    background-color: lightsteelblue;
 }
 
-.tablaIngreso tbody td{
-    padding-left: 15px;
+.tablaIngreso tbody td {
+    padding-left : 15px;
     padding-right: 15px;
+}
+
+.articulo_ingreso {
+  border-left: 1px black solid
 }

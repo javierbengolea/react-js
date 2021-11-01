@@ -5,7 +5,7 @@ function Ficha() {
     const yourDate = new Date()
 
     return (
-        <article>
+        <article className="articulo_ingreso">
             <table className="tablaIngreso">
                 <thead>
                     <tr>
@@ -26,7 +26,7 @@ function Ficha() {
                     </tr>
                     <tr>
                         <td>Monto</td>
-                        <td><input type="text" /></td>
+                        <td><input type="number" /></td>
                     </tr>
                     <tr>
                         <td>Descripcion</td>
@@ -50,7 +50,9 @@ function Ficha() {
 
                     <tr>
                         <td colSpan={2}>
-                            <button>
+                            <button onClick={()=>{
+                                alert('Estamos en camino')
+                            }}>
 
                                 Registrar
 
