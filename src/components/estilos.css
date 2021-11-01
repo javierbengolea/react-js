@@ -1,0 +1,22 @@
+.titulo {
+    display         : flex;
+    background-color: cornflowerblue;
+    height          : 25px;
+    flex-direction  : row;
+    padding         : 10px;
+}
+
+.titulo .logo {
+    width: 15vw,
+
+}
+
+.titulo .descripcion {
+    width     : 75vw;
+    text-align: center;
+}
+
+.titulo .menu-derecha {
+    width: 10vw;
+    text-align: center;
+}

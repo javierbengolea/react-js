@@ -3,6 +3,15 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Navegador from './components/nav';
+
+ReactDOM.render(
+  <React.StrictMode>
+    <Navegador />
+  </React.StrictMode>,
+  document.getElementById('navegador')
+);
+
 
 ReactDOM.render(
   <React.StrictMode>
