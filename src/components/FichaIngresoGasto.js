@@ -1,4 +1,3 @@
-import react from "react";
 import "./estilos.css"
 import {nanoid} from 'nanoid'
 
