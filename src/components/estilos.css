@@ -42,3 +42,11 @@ article {
 .articulo_ingreso {
   border-left: 1px black solid
 }
+
+.derecha{
+    text-align: right;
+}
+
+input, select{
+    width: 150px;
+}
