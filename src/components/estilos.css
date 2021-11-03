@@ -43,10 +43,13 @@ article {
   border-left: 1px black solid
 }
 
+<<<<<<< HEAD
 .derecha{
     text-align: right;
 }
 
+=======
+>>>>>>> 2dd61331e0ece6afb260a96c1a40e77f78463bda
 input, select{
     width: 150px;
 }
