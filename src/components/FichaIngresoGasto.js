@@ -1,5 +1,5 @@
 import "./estilos.css"
-import {nanoid} from 'nanoid'
+import { nanoid } from 'nanoid'
 
 
 function Ficha() {
@@ -12,7 +12,7 @@ function Ficha() {
         monto: "",
         descripcion: "",
         tipo_pago: "",
-        toString: (fecha) =>{
+        toString: (fecha) => {
             return fecha
         }
     };
@@ -55,7 +55,7 @@ function Ficha() {
                                 <option value="Transferencia" > Transferencia</option>
                                 <option value="Credito" > Credito</option>
                                 <option value="Prestado" > Prestado</option>
-                                
+
 
                             </select></td>
                     </tr>
@@ -68,8 +68,8 @@ function Ficha() {
                         <td><input id="canceladoGasto" type="text" /></td>
                    </tr>*/}
 
-                    </tbody>
-                    <tfoot>
+                </tbody>
+                <tfoot>
 
                     <tr>
                         <td colSpan={2}>
@@ -82,14 +82,14 @@ function Ficha() {
                                 alert(JSON.stringify(gasto));
                             }}>
 
-                                    Registrar
+                                Registrar
 
-                                </button>
-                            </td>
-                        </tr>
-                    </tfoot>
+                            </button>
+                        </td>
+                    </tr>
+                </tfoot>
 
-                </table>
+            </table>
         </article>
     )
 

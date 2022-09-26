@@ -1,6 +1,7 @@
 
 import './App.css';
 import Ficha from './components/FichaIngresoGasto';
+import Utiles from './components/Utiles';
 
 function App() {
   return (
@@ -13,7 +14,11 @@ function App() {
       <div>
         <Ficha />
       </div>
+      <div>
+        <Utiles />
+      </div>
     </div>
+    
 
   );
 }
